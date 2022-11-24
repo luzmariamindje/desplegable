@@ -1,3 +1,11 @@
+html{
+    font-size: 16px;
+}
+*{
+box-sizing: border-box;
+}
+
+
 :root{
     /* colores */
     --color_verdeBase: #59D9B5;
@@ -6,7 +14,7 @@
    --color_verdeMuyClaro: #D0F2E9;
    --color_grisFondo: #FAFCFE;
    /* margenes */
-   --margen_paddingGeneral:50px;
+   --margen_paddingGeneral:30px;
    --margen_paddingBotones:8px 10px;
    --margen_separacionSection:80px;
    /* fuentes */
@@ -17,4 +25,31 @@
    --fuente_H3: 1.3rem;
    --fuenteBotones: var(--fuente_H3);
    --fuenteParrado: var(--fuente_BaseTamanyo);
+}
+input{
+    display: none;
+}
+ul.desplegable{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+  background-color: var(--color_verdeBase);
+  list-style-type: none;
+ 
+}
+label{
+    position:absolute;
+    top: var(--margen_paddingGeneral);
+    left: var(--margen_paddingGeneral);
+    z-index: 5;
+
+}
+input:checked ~ .desplegable{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    width: 30px;
 }
