@@ -1,0 +1,20 @@
+:root{
+    /* colores */
+    --color_verdeBase: #59D9B5;
+    --color_verdeOscuro: #01402E;
+    --color_verdeClaro:#B3F2E0;
+   --color_verdeMuyClaro: #D0F2E9;
+   --color_grisFondo: #FAFCFE;
+   /* margenes */
+   --margen_paddingGeneral:50px;
+   --margen_paddingBotones:8px 10px;
+   --margen_separacionSection:80px;
+   /* fuentes */
+   --fuente_Base: Arial;
+   --fuente_BaseTamanyo: 1rem;
+   --fuente_H1: 2rem;
+   --fuente_H2: 1.5rem;
+   --fuente_H3: 1.3rem;
+   --fuenteBotones: var(--fuente_H3);
+   --fuenteParrado: var(--fuente_BaseTamanyo);
+}
