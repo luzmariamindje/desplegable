@@ -6,11 +6,13 @@ box-sizing: border-box;
 margin: 0;
    padding: 0;
 }
-body{
-    display: flex;
+header{
+  position: absolute;
+  z-index: 5;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: var(--color_verdeBase);
 }
 
 :root{
@@ -47,7 +49,7 @@ ul.desplegable{
   list-style-type: none;
   padding: calc(var(--margen_paddingGeneral)*6) var(--margen_paddingGeneral);
   font-size: var(--fuente_H3);
-  color: var(--color_verdeOscuro);
+  color: white;
 
  
 }
@@ -75,4 +77,23 @@ svg{
 .milogo{
    width: 70vw;
 }
+/* MAIN */
+main{
+    background-color: var(--color_verdeBase);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gono{
+    filter: invert();
+    width: 35px;
+}
+h1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5px;
+}
+
+
 
