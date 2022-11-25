@@ -3,6 +3,8 @@ html{
 }
 *{
 box-sizing: border-box;
+margin: 0;
+   padding: 0;
 }
 
 
@@ -30,11 +32,18 @@ input{
     display: none;
 }
 ul.desplegable{
+   margin: 0;
+   padding: 0;
     display: none;
     width: 100vw;
     height: 100vh;
   background-color: var(--color_verdeBase);
+  font-family: var(--fuente_Base);
   list-style-type: none;
+  padding: calc(var(--margen_paddingGeneral)*6) var(--margen_paddingGeneral);
+  font-size: var(--fuente_H3);
+  color: var(--color_verdeOscuro);
+
  
 }
 label{
@@ -42,14 +51,18 @@ label{
     top: var(--margen_paddingGeneral);
     left: var(--margen_paddingGeneral);
     z-index: 5;
-
 }
+
 input:checked ~ .desplegable{
-    display: block;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   align-items: center;
+   
 }
 
 svg{
     width: 30px;
+
 }
+
