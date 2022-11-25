@@ -44,7 +44,7 @@ ul.desplegable{
     display: none;
     width: 100vw;
     height: 100vh;
-  background-color: var(--color_verdeBase);
+  background-color:var(--color_verdeOscuro);
   font-family: var(--fuente_Base);
   list-style-type: none;
   padding: calc(var(--margen_paddingGeneral)*6) var(--margen_paddingGeneral);
