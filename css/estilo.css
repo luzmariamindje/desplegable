@@ -6,7 +6,12 @@ box-sizing: border-box;
 margin: 0;
    padding: 0;
 }
-
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
 :root{
     /* colores */
@@ -64,5 +69,10 @@ input:checked ~ .desplegable{
 svg{
     width: 30px;
 
+}
+
+
+.milogo{
+   width: 70vw;
 }
 
