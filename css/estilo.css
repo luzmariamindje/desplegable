@@ -4,7 +4,7 @@ html{
 *{
 box-sizing: border-box;
 margin: 0;
-   padding: 0;
+padding: 0;
 }
 header{
   position: absolute;
@@ -94,6 +94,9 @@ h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 5px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 
 
